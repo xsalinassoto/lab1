@@ -1,0 +1,324 @@
+
+
+			@font-face {
+				font-family: 'chris';
+				src: url('font/fpn.eot'); /* IE9 Compat Modes */
+				src: url('font/fpn.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+					 url('font/fpn.woff2') format('woff2'), /* Super Modern Browsers */
+					 url('font/fpn.woff') format('woff'), /* Pretty Modern Browsers */
+					 url('font/fpn.ttf')  format('truetype'), /* Safari, Android, iOS */
+					 url('font/fpn.svg#svgFontName') format('svg'); /* Legacy iOS */
+			  }
+			  body{
+				  
+				  font-weight: 900;
+				  font-family: 'chris', arial;
+				  margin: 0;
+				  padding: 0;
+				  
+			  }
+			  h1,h2,h3,h4,h5,h6{
+				  font-family: 'Amatic SC', cursive;
+			  }
+			  h2{
+				  font-family: 'chris', arial;
+				  font-size: 4.2vw;
+				  color: white;
+				  text-transform: lowercase;
+				  text-align:center;
+				  letter-spacing: 1px;
+				  word-spacing: 7px;
+				  text-shadow: 2px 3px 3px #333;
+			  
+			  }
+			  h1{
+				  font-size: 6em;
+				  font-weight: 700;
+				  color: #333;
+			  
+			  
+			  }
+			  h3 {
+				  font-family: 'chris', arial;
+				  font-size: 3.7vw;
+				  color: #e62739;
+				  text-transform: lowercase;
+				  margin: 0px;
+				  letter-spacing: 1px;
+				  word-spacing: 7px;
+				  text-shadow: 1px 1px 1px #000;
+				  padding: 20px;
+			  }
+
+			  
+			  
+  
+			  #logo{
+				  
+				  float: left;
+				  width: 200px;
+				  margin: 12px;
+			  }
+  
+			  p em{
+				  color: blue;
+			  }
+			  
+			  h1 em{
+				  color: #cd0000;
+			  }
+			  em{
+				  color: green;
+			  }
+			  .struct{
+				  width: 100%;
+				  height: 175px;
+				  
+			  }
+			  .footerstruct{
+				  width: 100%;
+				  height: 175px;
+				  background-color: black;
+			  }
+  
+			  #navstruct{
+				  float: right;
+				  width: 903px;
+				  height: 70px;
+				  text-transform: lowercase;
+				  margin: 12px;
+				  padding: 12px;
+				  
+			  
+			  }
+			  .listruct{
+				  display: inline;
+				  font-size: 50px;
+				  padding: 10px;
+				  width: 100px;
+				  height: 50px;
+				  margin: 7px;
+			  
+			  }
+  
+			  #blockstruct1{
+				  width: 100%;
+				  height: 650px;
+				  position: relative;
+				  background-image: url(images/icecreambg.jpg);
+				  background-position: 48% 28%;
+				  background-size: 100%;
+			  
+			  }
+			  .overlay{
+				  background-color: rgba(99, 211, 207, .7);
+				  position: absolute;
+				  top:0;
+				  left:0;
+				  width: 100%;
+				  height: 100%;
+				  
+			  }
+			  #blockstruct2{
+				  width: 100%;
+				  background-color: #aaa;
+				  background-color: #e1e8f0;
+				  padding-bottom: 4rem;
+			  
+			  }
+			  #blockstruct3{
+				  width: 100%;
+				  height: 650px;
+				  background-color: #333;
+			  
+			  }
+			  #testroundborder{
+				  
+				  background-color: aquamarine;
+				  background-image: url(http://cdn.playbuzz.com/cdn/dbf1cb6f-95ca-4113-a660-a2365b399b33/74492de2-c33f-49bd-8a40-1f3fe51cc09b_560_420.jpg);
+				  width: 125px;
+				  height: 125px;
+				  border-radius: 300px;
+				  background-position-x: -25px;
+				  background-size: 130% 112%;
+				  background-repeat: no-repeat;
+			  }
+			  .custqoute{
+				  font-family: 'Amatic SC', cursive;
+				  font-size: 46px;
+				  color: #e62739;
+				  width: 1000px;
+				  text-indent: 3.4em;
+				  padding-top: 20px;
+				  text-shadow: 1px 1px 1px #e1e8f0;
+				  
+			  }
+			  a{
+				  text-decoration: none;
+			  }
+			  
+			  a:link {
+				  color: black;
+				  
+			  
+			  }
+			  a:visited{
+				  color: #ed1846;
+			  
+			  }
+			  .
+			  
+			  a:hover{
+				  color: green;
+				  border-bottom: 4px solid #333;
+			  }
+			  .listruct:hover a{
+				  
+				  background-color: #9068bc;
+				  color: white;
+			  
+			  }
+			  .listruct:hover{
+				  
+				  background-color: #9068bc;
+				  padding: 20px;
+				  
+			  
+			  }
+
+			  #logo img {
+				width: 200px;
+				padding: 15px;
+			}
+			  .contain{
+					  width: 65%;
+					  margin: auto;
+					  padding-top: 3em;
+			  
+			  }
+			  #testingout{
+				  width: 300px;
+				  height: 300px;
+				  background-color: aquamarine;
+				  border-radius: 13px;
+				  background-image: url(http://cdn.playbuzz.com/cdn/dbf1cb6f-95ca-4113-a660-a2365b399b33/74492de2-c33f-49bd-8a40-1f3fe51cc09b_560_420.jpg);
+			  
+			  }
+			  .blockcontain{
+				  display: flex;
+				  width: 95%;
+			  
+			  }
+			  .columnstruct{
+				width: 100%;
+				height: 500px;
+				margin: auto;
+				border: 3px dashed white;
+				clear: both;
+			  
+			  }
+			  .icecreamshop{
+  
+				  background-color: #e62739;
+				  height: 100px;
+				  margin: 12px;
+				  background-image: url(images/sebastian.jpg);
+				  border-radius: 12px;
+				  background-position-y: 24%;
+				  box-shadow: inset 90px 90px 50px 0 rgba(130,130,130,0.7);
+			  
+			  
+			  }
+			  #izzy{
+  
+				  background-color: #e62739;
+				  height: 100px;
+				  margin: 12px;
+				  background-image: url(images/izzys.jpg);
+				  background-size: cover;
+				  border-radius: 12px;
+				  background-position-y: 30%;
+				  box-shadow: inset 90px 90px 50px 0 rgba(130,130,130,0.7);
+			  
+			  
+			  }
+			  #izzydisplay{
+				  height: 400px;
+				  background-color: red;
+				  display: none;
+				  margin: 12px;
+				  border-radius: 12px;
+			  
+			  }
+			  #joedisplay{
+				  height: 400px;
+				  background-color: red;
+				  display: none;
+				  margin: 12px;
+				  border-radius: 12px;
+			  
+			  }
+			  #mapjoedisplay, #mapizzydisplay  {
+				  height: 400px;
+				  width: 100%;
+			 }
+			  
+			  /* smaller than 1190 pixels */
+			  @media screen and (max-width: 1190px) {
+				  .struct{
+					  background-color: #e8b386;
+					  height: 300px;
+				  }
+				  #navstruct {
+					  float: none;
+					  clear: both;
+					  margin: auto;
+				  }
+				  #logo {
+					  float: none; 
+			  
+					  margin: 0px; 
+					  margin: auto;
+					  padding-top: 2em;
+				  }
+				  #testroundborder {
+					display: none;
+				}
+				#blockstruct1 {
+
+					height: 375px;
+
+				}
+			  }
+			  /* smaller than 865 pixels */
+			  @media screen and (max-width: 865px) {
+				  .struct{
+					  background-color: orange;
+					  height: 450px;
+				  }
+				  #navstruct {
+					  float: none;
+					  width: 400px;
+  
+				  }
+				  .listruct {
+					  display: block; 
+					  list-style-type: none;
+					  width: 350px;
+					  text-align: center;
+					  margin: auto;
+				  }
+
+			  }
+			  /* smaller than 480 pixels */
+			  @media screen and (max-width: 480px) {
+				  .struct{
+					  background-color: blue;
+				  }
+			  }
+			  #bottom_footer{
+				width: 100%;
+				clear: both;
+				height: 75px;
+				background-color: #474747;
+			  }
